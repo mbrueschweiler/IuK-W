@@ -1,0 +1,12 @@
+body {
+	background-color: #F5ECCE;
+	font-family: sans-serif; 
+}
+
+.Kapitel {
+	list-style-type: square;
+}
+
+.Aufgaben {
+	list-style-type: circle;
+}
