@@ -29,10 +29,10 @@
       <div class="container">
             <form>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Benutzername" onchange="validieren();">
+                    <input type="text" class="form-control" id="name" placeholder="Benutzername" onchange="validieren()">
                     <small>Der Benutzername muss mindestnes 3 Zeichen lang sein.</small>
                 </div>
-                <button type="button" class="btn btn-primary" onclick="login();">Login</button>
+                <button id="login" type="button" class="btn btn-primary" disabled onclick="login()">Login</button>
             </form>
         </div>
     </div>
@@ -43,15 +43,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
     <!-- My JavaScript -->
-    <script>
-      function validieren() {
-
-      }
-      function login() {
-          if(isValidUsername()) {
-            window.location.href = 'list.html';
-          }
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
